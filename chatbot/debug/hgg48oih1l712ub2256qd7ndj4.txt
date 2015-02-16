@@ -1,0 +1,286 @@
+16-02-2015 09:43:30.92108[0][2] - Elapsed time: 1.899 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7 
+-----------------------
+16-02-2015 09:43:30.92113[0][2] - Elapsed time: 0.05102 milliseconds
+[conversation_start.php][Called outside of function][26]
+OS: Windows NT version build 9200 ((null)) 
+-----------------------
+16-02-2015 09:43:30.92115[0][2] - Elapsed time: 0.02503 milliseconds
+[conversation_start.php][Called outside of function][27]
+PHP  version 5.3.1 
+-----------------------
+16-02-2015 09:43:30.94004[2][2] - Elapsed time: 18.8899 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+16-02-2015 09:43:30.94066[2][2] - Elapsed time: 0.62013 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+16-02-2015 09:43:30.94071[2][2] - Elapsed time: 0.04387 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on sujit. 
+-----------------------
+16-02-2015 09:43:30.9408[2][2] - Elapsed time: 0.09108 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+16-02-2015 09:43:30.94273[2][2] - Elapsed time: 1.93691 milliseconds
+[conversation_start.php][Called outside of function][132]
+Details:
+User say: sujit
+Convo id: hgg48oih1l712ub2256qd7ndj4
+Bot id: 1
+Format: html 
+-----------------------
+16-02-2015 09:43:30.94328[2][2] - Elapsed time: 0.54097 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+16-02-2015 09:43:30.9436[2][2] - Elapsed time: 0.32401 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+16-02-2015 09:43:30.94364[2][2] - Elapsed time: 0.04101 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+16-02-2015 09:43:30.94394[2][2] - Elapsed time: 0.30303 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+16-02-2015 09:43:30.9443[1][2] - Elapsed time: 0.35596 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => hii
+)
+ 
+-----------------------
+16-02-2015 09:43:30.94435[1][2] - Elapsed time: 0.04816 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => You are objective and sensible.
+)
+ 
+-----------------------
+16-02-2015 09:43:30.94439[2][2] - Elapsed time: 0.03791 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:30.94456[2][2] - Elapsed time: 0.17309 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'YOU ARE OBJECTIVE AND SENSIBLE' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:30.94477[2][2] - Elapsed time: 0.21482 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:30.94488[2][2] - Elapsed time: 0.10204 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HII' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:30.94908[2][2] - Elapsed time: 4.20809 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+16-02-2015 09:43:30.94975[0][2] - Elapsed time: 0.66996 milliseconds
+[conversation_start.php][Called outside of function][147]
+Debug level = 2 
+-----------------------
+16-02-2015 09:43:30.94986[0][2] - Elapsed time: 0.103 milliseconds
+[conversation_start.php][Called outside of function][149]
+Debug level = 2 
+-----------------------
+16-02-2015 09:43:30.94991[2][2] - Elapsed time: 0.05698 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'sujit' to the front of the [user_say] array 
+-----------------------
+16-02-2015 09:43:30.95001[2][2] - Elapsed time: 0.09394 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'sujit' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:30.95083[2][2] - Elapsed time: 0.82207 milliseconds
+[find_aiml.php][find_userdefined_aiml][718]
+User defined rows found: '0' 
+-----------------------
+16-02-2015 09:43:31.03581[2][2] - Elapsed time: 84.98311 milliseconds
+[find_aiml.php][find_aiml_matches][874]
+FOUND: (162) potential AIML matches 
+-----------------------
+16-02-2015 09:43:31.05684[2][2] - Elapsed time: 21.02685 milliseconds
+[find_aiml.php][get_winning_category][570]
+And the winner is... 188731! 
+-----------------------
+16-02-2015 09:43:31.07839[2][2] - Elapsed time: 21.54994 milliseconds
+[find_aiml.php][get_highest_scoring_row][555]
+Will use randomly picked best response chosen out of 1 responses with same score: 188731 - SUJIT 
+-----------------------
+16-02-2015 09:43:31.07847[2][2] - Elapsed time: 0.08321 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+16-02-2015 09:43:31.07853[2][2] - Elapsed time: 0.05198 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+16-02-2015 09:43:31.07855[2][2] - Elapsed time: 0.02503 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+16-02-2015 09:43:31.07872[2][2] - Elapsed time: 0.16999 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 09:43:31.07881[2][2] - Elapsed time: 0.08988 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 09:43:31.07888[2][2] - Elapsed time: 0.06604 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][190]
+Parsing a TEXT tag. 
+-----------------------
+16-02-2015 09:43:31.07892[2][2] - Elapsed time: 0.04697 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:31.079[2][2] - Elapsed time: 0.07391 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:31.07909[2][2] - Elapsed time: 0.09513 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Amit Saroj's Friend.' to the front of the [that_raw] array 
+-----------------------
+16-02-2015 09:43:31.0793[2][2] - Elapsed time: 0.21195 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Amit Saroj's Friend.' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:31.07952[2][2] - Elapsed time: 0.21195 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Amit Saroj's Friend.' to the front of the [parsed_template] array 
+-----------------------
+16-02-2015 09:43:31.0796[2][2] - Elapsed time: 0.08202 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Amit Saroj's Friend.' to the front of the [template] array 
+-----------------------
+16-02-2015 09:43:31.0797[2][2] - Elapsed time: 0.09894 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+16-02-2015 09:43:31.08215[2][2] - Elapsed time: 2.45309 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+16-02-2015 09:43:31.08579[2][2] - Elapsed time: 3.64304 milliseconds
+[conversation_start.php][Called outside of function][182]
+Closing Database 
+-----------------------
+16-02-2015 09:43:31.08584[2][2] - Elapsed time: 0.04601 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+16-02-2015 09:43:31.08597[0][2] - Elapsed time: 0.13399 milliseconds
+[conversation_start.php][Called outside of function][187]
+Conversation Ending. Elapsed time: 166.771 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => hgg48oih1l712ub2256qd7ndj4
+            [bot_name] => popo
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_name] => Seeker
+            [user_id] => 8
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => amitsaroj2012@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => database
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => sujit
+            [lookingfor] => SUJIT
+            [template_id] => 188731
+            [pattern] => SUJIT
+            [thatpattern] => 
+            [template] => Amit Saroj's Friend.
+            [html_template] => 
+            [topic] => 
+            [score] => 10
+            [aiml_id] => 188731
+            [parsed_template] => Amit Saroj's Friend.
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => AMIT SAROJ S FRIEND
+                )
+
+        )
+
+    [input] => Array
+        (
+            [1] => sujit
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [user_say] => Array
+        (
+            [1] => sujit
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => Amit Saroj's Friend.
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => Amit Saroj's Friend.
+        )
+
+)
+
+-----------------------
+Total execution time: 166.771 Milliseconds. Goodbye.

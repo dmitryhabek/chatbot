@@ -1,0 +1,324 @@
+16-02-2015 17:22:10.75593[0][2] - Elapsed time: 5.0211 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7 
+-----------------------
+16-02-2015 17:22:10.75605[0][2] - Elapsed time: 0.12183 milliseconds
+[conversation_start.php][Called outside of function][26]
+OS: Windows NT version build 9200 ((null)) 
+-----------------------
+16-02-2015 17:22:10.75614[0][2] - Elapsed time: 0.08202 milliseconds
+[conversation_start.php][Called outside of function][27]
+PHP  version 5.3.1 
+-----------------------
+16-02-2015 17:22:10.78906[2][2] - Elapsed time: 32.92108 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+16-02-2015 17:22:10.79005[2][2] - Elapsed time: 0.99707 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+16-02-2015 17:22:10.79013[2][2] - Elapsed time: 0.07701 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on name. 
+-----------------------
+16-02-2015 17:22:10.79028[2][2] - Elapsed time: 0.14782 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+16-02-2015 17:22:10.7948[2][2] - Elapsed time: 4.52113 milliseconds
+[conversation_start.php][Called outside of function][132]
+Details:
+User say: name
+Convo id: nt0cgltvgpf1i1khpa36f46qo5
+Bot id: 1
+Format: html 
+-----------------------
+16-02-2015 17:22:10.79655[2][2] - Elapsed time: 1.75095 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+16-02-2015 17:22:10.79723[2][2] - Elapsed time: 0.67997 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+16-02-2015 17:22:10.79731[2][2] - Elapsed time: 0.07796 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+16-02-2015 17:22:10.79793[2][2] - Elapsed time: 0.62513 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+16-02-2015 17:22:10.79865[1][2] - Elapsed time: 0.72002 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => hii
+    [1] => hhi there
+)
+ 
+-----------------------
+16-02-2015 17:22:10.79874[1][2] - Elapsed time: 0.08702 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => I always try to avoid conflict.
+    [1] => Perhaps I'm just expressing my own concern about it.
+)
+ 
+-----------------------
+16-02-2015 17:22:10.79881[2][2] - Elapsed time: 0.07296 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 17:22:10.79905[2][2] - Elapsed time: 0.23103 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'PERHAPS I M JUST EXPRESSING MY OWN CONCERN ABOUT IT' to the front of the [that] array 
+-----------------------
+16-02-2015 17:22:10.79932[2][2] - Elapsed time: 0.2749 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 17:22:10.79949[2][2] - Elapsed time: 0.16713 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I ALWAYS TRY TO AVOID CONFLICT' to the front of the [that] array 
+-----------------------
+16-02-2015 17:22:10.79972[2][2] - Elapsed time: 0.2358 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 17:22:10.79986[2][2] - Elapsed time: 0.14019 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HHI THERE' to the front of the [input] array 
+-----------------------
+16-02-2015 17:22:10.79996[2][2] - Elapsed time: 0.1018 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 17:22:10.8001[2][2] - Elapsed time: 0.13113 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'HII' to the front of the [input] array 
+-----------------------
+16-02-2015 17:22:10.80297[2][2] - Elapsed time: 2.87199 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+16-02-2015 17:22:10.80363[0][2] - Elapsed time: 0.66686 milliseconds
+[conversation_start.php][Called outside of function][147]
+Debug level = 2 
+-----------------------
+16-02-2015 17:22:10.80371[0][2] - Elapsed time: 0.07701 milliseconds
+[conversation_start.php][Called outside of function][149]
+Debug level = 2 
+-----------------------
+16-02-2015 17:22:10.80378[2][2] - Elapsed time: 0.06413 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'name' to the front of the [user_say] array 
+-----------------------
+16-02-2015 17:22:10.80391[2][2] - Elapsed time: 0.13399 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'name' to the front of the [input] array 
+-----------------------
+16-02-2015 17:22:10.80513[2][2] - Elapsed time: 1.21999 milliseconds
+[find_aiml.php][find_userdefined_aiml][718]
+User defined rows found: '0' 
+-----------------------
+16-02-2015 17:22:10.93059[2][2] - Elapsed time: 125.46301 milliseconds
+[find_aiml.php][find_aiml_matches][874]
+FOUND: (162) potential AIML matches 
+-----------------------
+16-02-2015 17:22:10.94991[2][2] - Elapsed time: 19.31405 milliseconds
+[find_aiml.php][get_winning_category][570]
+And the winner is... 182358! 
+-----------------------
+16-02-2015 17:22:10.96288[2][2] - Elapsed time: 12.97688 milliseconds
+[find_aiml.php][get_highest_scoring_row][555]
+Will use randomly picked best response chosen out of 1 responses with same score: 182358 - NAME 
+-----------------------
+16-02-2015 17:22:10.96296[2][2] - Elapsed time: 0.07606 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+16-02-2015 17:22:10.96302[2][2] - Elapsed time: 0.05507 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+16-02-2015 17:22:10.96304[2][2] - Elapsed time: 0.02885 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+16-02-2015 17:22:10.96318[2][2] - Elapsed time: 0.13518 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 17:22:10.96328[2][2] - Elapsed time: 0.0999 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 17:22:10.96336[2][2] - Elapsed time: 0.07701 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][328]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+16-02-2015 17:22:10.96346[2][2] - Elapsed time: 0.108 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 17:22:10.96354[2][2] - Elapsed time: 0.07796 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 17:22:10.96361[2][2] - Elapsed time: 0.0701 milliseconds
+[parse_aiml_as_XML.php][parse_bot_tag][489]
+Parsing a BOT tag. 
+-----------------------
+16-02-2015 17:22:10.96368[2][2] - Elapsed time: 0.06485 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 17:22:10.96373[2][2] - Elapsed time: 0.05603 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 17:22:10.96379[2][2] - Elapsed time: 0.05507 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 17:22:10.96384[2][2] - Elapsed time: 0.05388 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 17:22:10.96391[2][2] - Elapsed time: 0.06604 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Popo' to the front of the [that_raw] array 
+-----------------------
+16-02-2015 17:22:10.96401[2][2] - Elapsed time: 0.10204 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Popo' to the front of the [that] array 
+-----------------------
+16-02-2015 17:22:10.96413[2][2] - Elapsed time: 0.12493 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Popo' to the front of the [parsed_template] array 
+-----------------------
+16-02-2015 17:22:10.9642[2][2] - Elapsed time: 0.06318 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '<random> <li><bot name="name"/></li> <li>My name is <bot name="name"/>.</li> <li>I am called <bot name="name"/>.</li></random>' to the front of the [template] array 
+-----------------------
+16-02-2015 17:22:10.9643[2][2] - Elapsed time: 0.09799 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+16-02-2015 17:22:10.96508[2][2] - Elapsed time: 0.78297 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+16-02-2015 17:22:10.96803[2][2] - Elapsed time: 2.95091 milliseconds
+[conversation_start.php][Called outside of function][182]
+Closing Database 
+-----------------------
+16-02-2015 17:22:10.96807[2][2] - Elapsed time: 0.03791 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+16-02-2015 17:22:10.9682[0][2] - Elapsed time: 0.13018 milliseconds
+[conversation_start.php][Called outside of function][187]
+Conversation Ending. Elapsed time: 217.263 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => nt0cgltvgpf1i1khpa36f46qo5
+            [bot_name] => popo
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_name] => Seeker
+            [user_id] => 9
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => amitsaroj2012@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => database
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => name
+            [lookingfor] => NAME
+            [template_id] => 182358
+            [pattern] => NAME
+            [thatpattern] => 
+            [template] => <random> <li><bot name="name"/></li> <li>My name is <bot name="name"/>.</li> <li>I am called <bot name="name"/>.</li></random>
+            [html_template] => 
+            [topic] => 
+            [score] => 3
+            [aiml_id] => 182358
+            [parsed_template] => Popo
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => POPO
+                )
+
+        )
+
+    [input] => Array
+        (
+            [1] => name
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [user_say] => Array
+        (
+            [1] => name
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => Popo
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => Popo
+        )
+
+)
+
+-----------------------
+Total execution time: 217.263 Milliseconds. Goodbye.

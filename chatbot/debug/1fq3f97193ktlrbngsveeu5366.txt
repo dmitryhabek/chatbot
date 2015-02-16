@@ -1,0 +1,448 @@
+16-02-2015 09:42:55.9948[0][2] - Elapsed time: 362.4208 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7 
+-----------------------
+16-02-2015 09:42:56.48354[0][2] - Elapsed time: 488.73615 milliseconds
+[conversation_start.php][Called outside of function][26]
+OS: Windows NT version build 9200 ((null)) 
+-----------------------
+16-02-2015 09:42:56.4836[0][2] - Elapsed time: 0.05603 milliseconds
+[conversation_start.php][Called outside of function][27]
+PHP  version 5.3.1 
+-----------------------
+16-02-2015 09:43:02.26813[2][2] - Elapsed time: 5784.53088 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+16-02-2015 09:43:02.2811[2][2] - Elapsed time: 12.97212 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+16-02-2015 09:43:02.28117[2][2] - Elapsed time: 0.07081 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on boring. 
+-----------------------
+16-02-2015 09:43:02.28126[2][2] - Elapsed time: 0.09418 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+16-02-2015 09:43:02.34891[2][2] - Elapsed time: 67.64793 milliseconds
+[conversation_start.php][Called outside of function][132]
+Details:
+User say: boring
+Convo id: 1fq3f97193ktlrbngsveeu5366
+Bot id: 1
+Format: html 
+-----------------------
+16-02-2015 09:43:02.34955[2][2] - Elapsed time: 0.633 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+16-02-2015 09:43:02.40408[2][2] - Elapsed time: 54.53897 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+16-02-2015 09:43:02.40415[2][2] - Elapsed time: 0.06509 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+16-02-2015 09:43:02.4587[2][2] - Elapsed time: 54.54803 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+16-02-2015 09:43:02.57651[1][2] - Elapsed time: 117.81287 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => boring
+    [1] => boring
+    [2] => boring
+    [3] => boring
+    [4] => boring
+    [5] => boring
+    [6] => boring
+    [7] => boring
+    [8] => boring
+    [9] => boring
+)
+ 
+-----------------------
+16-02-2015 09:43:02.57661[1][2] - Elapsed time: 0.103 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => Are you boring?
+    [1] => Are you boring?
+    [2] => Are you boring?
+    [3] => Are you boring?
+    [4] => Are you boring?
+    [5] => Are you boring?
+    [6] => Are you boring?
+    [7] => Are you boring?
+    [8] => Are you boring?
+    [9] => Are you boring?
+)
+ 
+-----------------------
+16-02-2015 09:43:02.57674[2][2] - Elapsed time: 0.12302 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59463[2][2] - Elapsed time: 17.89498 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59501[2][2] - Elapsed time: 0.37813 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59515[2][2] - Elapsed time: 0.144 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59533[2][2] - Elapsed time: 0.18096 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59555[2][2] - Elapsed time: 0.21386 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59575[2][2] - Elapsed time: 0.20003 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59588[2][2] - Elapsed time: 0.13494 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59606[2][2] - Elapsed time: 0.18001 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59619[2][2] - Elapsed time: 0.13113 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59637[2][2] - Elapsed time: 0.18001 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.5965[2][2] - Elapsed time: 0.12994 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59669[2][2] - Elapsed time: 0.18692 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59683[2][2] - Elapsed time: 0.139 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59701[2][2] - Elapsed time: 0.18215 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59714[2][2] - Elapsed time: 0.13089 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59733[2][2] - Elapsed time: 0.18215 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59746[2][2] - Elapsed time: 0.13185 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59764[2][2] - Elapsed time: 0.18215 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59777[2][2] - Elapsed time: 0.13399 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'ARE YOU BORING' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:02.59802[2][2] - Elapsed time: 0.24295 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59814[2][2] - Elapsed time: 0.12803 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.59824[2][2] - Elapsed time: 0.09894 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59837[2][2] - Elapsed time: 0.12398 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.59844[2][2] - Elapsed time: 0.0751 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59856[2][2] - Elapsed time: 0.11802 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.59861[2][2] - Elapsed time: 0.05102 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59871[2][2] - Elapsed time: 0.10085 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.59876[2][2] - Elapsed time: 0.05102 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59883[2][2] - Elapsed time: 0.072 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.59888[2][2] - Elapsed time: 0.04601 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59895[2][2] - Elapsed time: 0.07105 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.599[2][2] - Elapsed time: 0.04387 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59907[2][2] - Elapsed time: 0.072 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.59911[2][2] - Elapsed time: 0.04506 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59918[2][2] - Elapsed time: 0.072 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.59923[2][2] - Elapsed time: 0.04506 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.5993[2][2] - Elapsed time: 0.06986 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.59935[2][2] - Elapsed time: 0.04816 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:02.59942[2][2] - Elapsed time: 0.07105 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'BORING' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.63643[2][2] - Elapsed time: 37.01091 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+16-02-2015 09:43:02.63878[0][2] - Elapsed time: 2.35486 milliseconds
+[conversation_start.php][Called outside of function][147]
+Debug level = 2 
+-----------------------
+16-02-2015 09:43:02.63898[0][2] - Elapsed time: 0.19217 milliseconds
+[conversation_start.php][Called outside of function][149]
+Debug level = 2 
+-----------------------
+16-02-2015 09:43:02.63909[2][2] - Elapsed time: 0.11086 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'boring' to the front of the [user_say] array 
+-----------------------
+16-02-2015 09:43:02.63932[2][2] - Elapsed time: 0.23508 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'boring' to the front of the [input] array 
+-----------------------
+16-02-2015 09:43:02.74026[2][2] - Elapsed time: 100.93904 milliseconds
+[find_aiml.php][find_userdefined_aiml][718]
+User defined rows found: '0' 
+-----------------------
+16-02-2015 09:43:02.98376[2][2] - Elapsed time: 243.49308 milliseconds
+[find_aiml.php][find_aiml_matches][874]
+FOUND: (170) potential AIML matches 
+-----------------------
+16-02-2015 09:43:03.0189[2][2] - Elapsed time: 35.14481 milliseconds
+[find_aiml.php][get_winning_category][570]
+And the winner is... 178339! 
+-----------------------
+16-02-2015 09:43:03.06061[2][2] - Elapsed time: 41.70918 milliseconds
+[find_aiml.php][get_highest_scoring_row][555]
+Will use randomly picked best response chosen out of 1 responses with same score: 178339 - BORING 
+-----------------------
+16-02-2015 09:43:03.06073[2][2] - Elapsed time: 0.11778 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+16-02-2015 09:43:03.06082[2][2] - Elapsed time: 0.09608 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+16-02-2015 09:43:03.06091[2][2] - Elapsed time: 0.08392 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+16-02-2015 09:43:03.06115[2][2] - Elapsed time: 0.24104 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 09:43:03.06131[2][2] - Elapsed time: 0.16403 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 09:43:03.06144[2][2] - Elapsed time: 0.12708 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][190]
+Parsing a TEXT tag. 
+-----------------------
+16-02-2015 09:43:03.06151[2][2] - Elapsed time: 0.07486 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:03.06164[2][2] - Elapsed time: 0.13018 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 09:43:03.06177[2][2] - Elapsed time: 0.12994 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Are you boring?' to the front of the [that_raw] array 
+-----------------------
+16-02-2015 09:43:03.06194[2][2] - Elapsed time: 0.16594 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Are you boring?' to the front of the [that] array 
+-----------------------
+16-02-2015 09:43:03.06216[2][2] - Elapsed time: 0.22316 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Are you boring?' to the front of the [parsed_template] array 
+-----------------------
+16-02-2015 09:43:03.06228[2][2] - Elapsed time: 0.11492 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Are you boring?' to the front of the [template] array 
+-----------------------
+16-02-2015 09:43:03.0624[2][2] - Elapsed time: 0.12398 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+16-02-2015 09:43:03.19545[2][2] - Elapsed time: 133.04996 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+16-02-2015 09:43:03.24942[2][2] - Elapsed time: 53.96795 milliseconds
+[conversation_start.php][Called outside of function][182]
+Closing Database 
+-----------------------
+16-02-2015 09:43:03.24957[2][2] - Elapsed time: 0.15116 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+16-02-2015 09:43:03.24994[0][2] - Elapsed time: 0.36693 milliseconds
+[conversation_start.php][Called outside of function][187]
+Conversation Ending. Elapsed time: 7,617.509 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => 1fq3f97193ktlrbngsveeu5366
+            [bot_name] => popo
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_name] => Seeker
+            [user_id] => 7
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => amitsaroj2012@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => database
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => boring
+            [lookingfor] => BORING
+            [template_id] => 178339
+            [pattern] => BORING
+            [thatpattern] => 
+            [template] => Are you boring?
+            [html_template] => 
+            [topic] => 
+            [score] => 10
+            [aiml_id] => 178339
+            [parsed_template] => Are you boring?
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => ARE YOU BORING
+                )
+
+        )
+
+    [input] => Array
+        (
+            [1] => boring
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [user_say] => Array
+        (
+            [1] => boring
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => Are you boring?
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => Are you boring?
+        )
+
+)
+
+-----------------------
+Total execution time: 7,617.509 Milliseconds. Goodbye.

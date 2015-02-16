@@ -1,0 +1,993 @@
+16-02-2015 02:09:20.19038[0][2] - Elapsed time: 5.29504 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7 
+-----------------------
+16-02-2015 02:09:20.19054[0][2] - Elapsed time: 0.15402 milliseconds
+[conversation_start.php][Called outside of function][26]
+OS: Windows NT version build 9200 ((null)) 
+-----------------------
+16-02-2015 02:09:20.19059[0][2] - Elapsed time: 0.05889 milliseconds
+[conversation_start.php][Called outside of function][27]
+PHP  version 5.3.1 
+-----------------------
+16-02-2015 02:09:20.22385[2][2] - Elapsed time: 33.25915 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+16-02-2015 02:09:20.22483[2][2] - Elapsed time: 0.97489 milliseconds
+[spell_checker.php][run_spell_checker_say][36]
+Starting function and setting timestamp. 
+-----------------------
+16-02-2015 02:09:20.22491[2][2] - Elapsed time: 0.08106 milliseconds
+[spell_checker.php][spell_check][57]
+Preforming a spel chek on amit. 
+-----------------------
+16-02-2015 02:09:20.22508[2][2] - Elapsed time: 0.16499 milliseconds
+[spell_checker.php][load_spelling_list][120]
+Loading the spellcheck list from the DB. 
+-----------------------
+16-02-2015 02:09:20.22889[2][2] - Elapsed time: 3.81494 milliseconds
+[conversation_start.php][Called outside of function][132]
+Details:
+User say: amit
+Convo id: 9085u6vs65gs7h0hp5peitssv3
+Bot id: 1
+Format: html 
+-----------------------
+16-02-2015 02:09:20.22992[2][2] - Elapsed time: 1.02711 milliseconds
+[intialise_conversation.php][check_set_bot][473]
+Checking and/or setting the current bot. 
+-----------------------
+16-02-2015 02:09:20.23054[2][2] - Elapsed time: 0.62394 milliseconds
+[intialise_conversation.php][check_set_bot][502]
+BOT ID: 1 
+-----------------------
+16-02-2015 02:09:20.23062[2][2] - Elapsed time: 0.0751 milliseconds
+[intialise_conversation.php][check_set_user][556]
+Checking and setting the user info, as needed. 
+-----------------------
+16-02-2015 02:09:20.23117[2][2] - Elapsed time: 0.55599 milliseconds
+[intialise_conversation.php][load_that][632]
+Loading the THAT array. 
+-----------------------
+16-02-2015 02:09:20.23181[1][2] - Elapsed time: 0.64087 milliseconds
+[intialise_conversation.php][load_that][653]
+Inputs returned:Array
+(
+    [0] => what is your name
+)
+ 
+-----------------------
+16-02-2015 02:09:20.23189[1][2] - Elapsed time: 0.07915 milliseconds
+[intialise_conversation.php][load_that][655]
+Responses returned:Array
+(
+    [0] => I am called Popo.
+)
+ 
+-----------------------
+16-02-2015 02:09:20.23196[2][2] - Elapsed time: 0.0658 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.23214[2][2] - Elapsed time: 0.18501 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'I AM CALLED POPO' to the front of the [that] array 
+-----------------------
+16-02-2015 02:09:20.23241[2][2] - Elapsed time: 0.26917 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.23256[2][2] - Elapsed time: 0.15187 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'WHAT IS YOUR NAME' to the front of the [input] array 
+-----------------------
+16-02-2015 02:09:20.23625[2][2] - Elapsed time: 3.685 milliseconds
+[intialise_conversation.php][load_bot_config][315]
+Loading config data for the current bot. 
+-----------------------
+16-02-2015 02:09:20.23719[0][2] - Elapsed time: 0.94509 milliseconds
+[conversation_start.php][Called outside of function][147]
+Debug level = 2 
+-----------------------
+16-02-2015 02:09:20.23727[0][2] - Elapsed time: 0.07987 milliseconds
+[conversation_start.php][Called outside of function][149]
+Debug level = 2 
+-----------------------
+16-02-2015 02:09:20.23734[2][2] - Elapsed time: 0.06509 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'amit' to the front of the [user_say] array 
+-----------------------
+16-02-2015 02:09:20.23748[2][2] - Elapsed time: 0.139 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'amit' to the front of the [input] array 
+-----------------------
+16-02-2015 02:09:20.23867[2][2] - Elapsed time: 1.18899 milliseconds
+[find_aiml.php][find_userdefined_aiml][718]
+User defined rows found: '0' 
+-----------------------
+16-02-2015 02:09:20.40006[2][2] - Elapsed time: 161.39197 milliseconds
+[find_aiml.php][find_aiml_matches][874]
+FOUND: (170) potential AIML matches 
+-----------------------
+16-02-2015 02:09:20.42818[2][2] - Elapsed time: 28.12195 milliseconds
+[find_aiml.php][get_winning_category][570]
+And the winner is... 141027! 
+-----------------------
+16-02-2015 02:09:20.42899[2][2] - Elapsed time: 0.80705 milliseconds
+[find_aiml.php][get_highest_scoring_row][555]
+Will use randomly picked best response chosen out of 1 responses with same score: 141027 - * 
+-----------------------
+16-02-2015 02:09:20.42909[2][2] - Elapsed time: 0.10109 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+16-02-2015 02:09:20.42915[2][2] - Elapsed time: 0.06104 milliseconds
+[parse_aiml.php][set_wildcards][269]
+We have pattern stars to process! 
+-----------------------
+16-02-2015 02:09:20.42919[2][2] - Elapsed time: 0.036 milliseconds
+[parse_aiml.php][set_wildcards][278]
+Checking '(.*)' against 'amit'. 
+-----------------------
+16-02-2015 02:09:20.42936[2][2] - Elapsed time: 0.16999 milliseconds
+[parse_aiml.php][set_wildcards][281]
+Array
+(
+    [0] => Array
+        (
+            [0] => amit
+            [1] => 
+        )
+
+    [1] => Array
+        (
+            [0] => amit
+            [1] => 
+        )
+
+)
+ 
+-----------------------
+16-02-2015 02:09:20.42945[2][2] - Elapsed time: 0.09298 milliseconds
+[parse_aiml.php][set_wildcards][287]
+Adding amit to the star stack. 
+-----------------------
+16-02-2015 02:09:20.42953[2][2] - Elapsed time: 0.07892 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+16-02-2015 02:09:20.42957[2][2] - Elapsed time: 0.04292 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+16-02-2015 02:09:20.42983[2][2] - Elapsed time: 0.25511 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.43004[2][2] - Elapsed time: 0.211 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.43016[2][2] - Elapsed time: 0.12708 milliseconds
+[parse_aiml_as_XML.php][parse_srai_tag][618]
+Parsing an SRAI tag. 
+-----------------------
+16-02-2015 02:09:20.4302[2][2] - Elapsed time: 0.03791 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the srai tag into text. 
+-----------------------
+16-02-2015 02:09:20.43026[2][2] - Elapsed time: 0.05603 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.43035[2][2] - Elapsed time: 0.08893 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][190]
+Parsing a TEXT tag. 
+-----------------------
+16-02-2015 02:09:20.4304[2][2] - Elapsed time: 0.05102 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.43044[2][2] - Elapsed time: 0.03791 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.43051[2][2] - Elapsed time: 0.07319 milliseconds
+[parse_aiml.php][run_srai][358]
+Checking for entries in the srai_lookup table. 
+-----------------------
+16-02-2015 02:09:20.43054[2][2] - Elapsed time: 0.0329 milliseconds
+[parse_aiml.php][run_srai][359]
+google bot_id = 1 
+-----------------------
+16-02-2015 02:09:20.43057[2][2] - Elapsed time: 0.03004 milliseconds
+[parse_aiml.php][run_srai][363]
+lookup SQL = select `template_id` from `amit`.`srai_lookup` where `pattern` = 'RANDOM PICKUP LINE' and  bot_id = '1' ; 
+-----------------------
+16-02-2015 02:09:20.43093[2][2] - Elapsed time: 0.35596 milliseconds
+[parse_aiml.php][run_srai][365]
+Result = Array
+(
+)
+ 
+-----------------------
+16-02-2015 02:09:20.43098[2][2] - Elapsed time: 0.05102 milliseconds
+[parse_aiml.php][run_srai][395]
+No match found in lookup table. 
+-----------------------
+16-02-2015 02:09:20.43101[2][2] - Elapsed time: 0.03195 milliseconds
+[parse_aiml.php][run_srai][397]
+Nothing found in the SRAI lookup table. Looking for a direct pattern match for 'RANDOM PICKUP LINE'. 
+-----------------------
+16-02-2015 02:09:20.49423[2][2] - Elapsed time: 63.21907 milliseconds
+[parse_aiml.php][run_srai][401]
+Found 1 potential responses. 
+-----------------------
+16-02-2015 02:09:20.49429[2][2] - Elapsed time: 0.06199 milliseconds
+[parse_aiml.php][run_srai][407]
+FOUND: (1) potential AIML matches 
+-----------------------
+16-02-2015 02:09:20.49492[1][2] - Elapsed time: 0.6249 milliseconds
+[find_aiml.php][Called outside of function][336]
+PHP ERROR [Notice] -Undefined index: bot_id in C:\xampp\htdocs\test\chatbot\core\aiml\find_aiml.php on Line 336 
+-----------------------
+16-02-2015 02:09:20.50646[2][2] - Elapsed time: 11.54304 milliseconds
+[find_aiml.php][get_winning_category][570]
+And the winner is... 141028! 
+-----------------------
+16-02-2015 02:09:20.50688[2][2] - Elapsed time: 0.42295 milliseconds
+[find_aiml.php][get_highest_scoring_row][555]
+Will use randomly picked best response chosen out of 1 responses with same score: 141028 - RANDOM PICKUP LINE 
+-----------------------
+16-02-2015 02:09:20.50712[2][2] - Elapsed time: 0.23603 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+16-02-2015 02:09:20.50785[2][2] - Elapsed time: 0.73195 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.51716[2][2] - Elapsed time: 9.31311 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.51736[2][2] - Elapsed time: 0.20003 milliseconds
+[parse_aiml_as_XML.php][parse_random_tag][328]
+Parsing a RANDOM tag, or doing some stargazing, or fomenting chaos, or... 
+-----------------------
+16-02-2015 02:09:20.51783[2][2] - Elapsed time: 0.46587 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.5179[2][2] - Elapsed time: 0.06819 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.51797[2][2] - Elapsed time: 0.067 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][190]
+Parsing a TEXT tag. 
+-----------------------
+16-02-2015 02:09:20.518[2][2] - Elapsed time: 0.03791 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.51805[2][2] - Elapsed time: 0.04792 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.51812[2][2] - Elapsed time: 0.06509 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.51818[2][2] - Elapsed time: 0.06199 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.5185[1][2] - Elapsed time: 0.319 milliseconds
+[parse_aiml.php][run_srai][477]
+Successfully inserted entry for 'RANDOM PICKUP LINE'. 
+-----------------------
+16-02-2015 02:09:20.51853[2][2] - Elapsed time: 0.03505 milliseconds
+[parse_aiml.php][run_srai][486]
+Returning results from stored srai lookup. 
+-----------------------
+16-02-2015 02:09:20.5186[2][2] - Elapsed time: 0.06485 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.51864[2][2] - Elapsed time: 0.04721 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.51869[2][2] - Elapsed time: 0.04387 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.51875[2][2] - Elapsed time: 0.05913 milliseconds
+[parse_aiml_as_XML.php][parse_think_tag][473]
+I'm considering parsing a THINK tag. 
+-----------------------
+16-02-2015 02:09:20.51877[2][2] - Elapsed time: 0.02599 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the think tag into text. 
+-----------------------
+16-02-2015 02:09:20.5188[2][2] - Elapsed time: 0.03099 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.51886[2][2] - Elapsed time: 0.05484 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.51888[2][2] - Elapsed time: 0.02599 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.51892[2][2] - Elapsed time: 0.03099 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.51897[2][2] - Elapsed time: 0.05412 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.519[2][2] - Elapsed time: 0.02789 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.51903[2][2] - Elapsed time: 0.03219 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.51909[2][2] - Elapsed time: 0.05698 milliseconds
+[parse_aiml_as_XML.php][parse_person_tag][782]
+Parsing a PERSON tag. 
+-----------------------
+16-02-2015 02:09:20.51911[2][2] - Elapsed time: 0.02694 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the person tag into text. 
+-----------------------
+16-02-2015 02:09:20.51914[2][2] - Elapsed time: 0.02909 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.58815[2][2] - Elapsed time: 69.01097 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.58822[2][2] - Elapsed time: 0.07081 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.5892[2][2] - Elapsed time: 0.97203 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.58932[2][2] - Elapsed time: 0.12302 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.58999[2][2] - Elapsed time: 0.67306 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.59011[2][2] - Elapsed time: 0.11706 milliseconds
+[parse_aiml_as_XML.php][parse_srai_tag][618]
+Parsing an SRAI tag. 
+-----------------------
+16-02-2015 02:09:20.59015[2][2] - Elapsed time: 0.04482 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the srai tag into text. 
+-----------------------
+16-02-2015 02:09:20.59021[2][2] - Elapsed time: 0.05412 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.59029[2][2] - Elapsed time: 0.07796 milliseconds
+[parse_aiml_as_XML.php][parse_text_tag][190]
+Parsing a TEXT tag. 
+-----------------------
+16-02-2015 02:09:20.59033[2][2] - Elapsed time: 0.04101 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.59038[2][2] - Elapsed time: 0.05412 milliseconds
+[parse_aiml_as_XML.php][parse_get_tag][350]
+Parsing a GET tag. Oh, and getting a sandwich while I'm at it. 
+-----------------------
+16-02-2015 02:09:20.59064[2][2] - Elapsed time: 0.25296 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.59068[2][2] - Elapsed time: 0.04005 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.59071[2][2] - Elapsed time: 0.03695 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.59076[2][2] - Elapsed time: 0.04792 milliseconds
+[parse_aiml.php][run_srai][358]
+Checking for entries in the srai_lookup table. 
+-----------------------
+16-02-2015 02:09:20.59079[2][2] - Elapsed time: 0.02599 milliseconds
+[parse_aiml.php][run_srai][359]
+google bot_id = 1 
+-----------------------
+16-02-2015 02:09:20.59081[2][2] - Elapsed time: 0.02599 milliseconds
+[parse_aiml.php][run_srai][363]
+lookup SQL = select `template_id` from `amit`.`srai_lookup` where `pattern` = 'PUSH amit' and  bot_id = '1' ; 
+-----------------------
+16-02-2015 02:09:20.591[2][2] - Elapsed time: 0.19002 milliseconds
+[parse_aiml.php][run_srai][365]
+Result = Array
+(
+)
+ 
+-----------------------
+16-02-2015 02:09:20.59104[2][2] - Elapsed time: 0.03505 milliseconds
+[parse_aiml.php][run_srai][395]
+No match found in lookup table. 
+-----------------------
+16-02-2015 02:09:20.59106[2][2] - Elapsed time: 0.02599 milliseconds
+[parse_aiml.php][run_srai][397]
+Nothing found in the SRAI lookup table. Looking for a direct pattern match for 'PUSH amit'. 
+-----------------------
+16-02-2015 02:09:20.6421[2][2] - Elapsed time: 51.04089 milliseconds
+[parse_aiml.php][run_srai][401]
+Found 0 potential responses. 
+-----------------------
+16-02-2015 02:09:20.64217[1][2] - Elapsed time: 0.06819 milliseconds
+[parse_aiml.php][run_srai][426]
+Error: FOUND NO AIML matches in DB 
+-----------------------
+16-02-2015 02:09:20.64253[1][2] - Elapsed time: 0.35882 milliseconds
+[find_aiml.php][unset_all_bad_pattern_matches][111]
+Returning error as no results where found 
+-----------------------
+16-02-2015 02:09:20.64319[2][2] - Elapsed time: 0.65899 milliseconds
+[find_aiml.php][get_winning_category][570]
+And the winner is... -1! 
+-----------------------
+16-02-2015 02:09:20.64342[2][2] - Elapsed time: 0.23103 milliseconds
+[find_aiml.php][get_highest_scoring_row][555]
+Will use randomly picked best response chosen out of 1 responses with same score: -1 - no results 
+-----------------------
+16-02-2015 02:09:20.64388[2][2] - Elapsed time: 0.46206 milliseconds
+[find_aiml.php][find_userdefined_aiml][718]
+User defined rows found: '0' 
+-----------------------
+16-02-2015 02:09:20.75095[2][2] - Elapsed time: 107.06592 milliseconds
+[find_aiml.php][find_aiml_matches][874]
+FOUND: (165) potential AIML matches 
+-----------------------
+16-02-2015 02:09:20.76712[2][2] - Elapsed time: 16.17312 milliseconds
+[find_aiml.php][get_winning_category][570]
+And the winner is... 171914! 
+-----------------------
+16-02-2015 02:09:20.76741[2][2] - Elapsed time: 0.28396 milliseconds
+[find_aiml.php][get_highest_scoring_row][555]
+Will use randomly picked best response chosen out of 1 responses with same score: 171914 - PUSH * 
+-----------------------
+16-02-2015 02:09:20.76747[2][2] - Elapsed time: 0.06199 milliseconds
+[parse_aiml.php][set_wildcards][250]
+Setting Wildcards 
+-----------------------
+16-02-2015 02:09:20.76751[2][2] - Elapsed time: 0.0391 milliseconds
+[parse_aiml.php][set_wildcards][269]
+We have pattern stars to process! 
+-----------------------
+16-02-2015 02:09:20.76753[2][2] - Elapsed time: 0.02599 milliseconds
+[parse_aiml.php][set_wildcards][278]
+Checking 'PUSH (.*)' against 'PUSH amit'. 
+-----------------------
+16-02-2015 02:09:20.7676[2][2] - Elapsed time: 0.0639 milliseconds
+[parse_aiml.php][set_wildcards][281]
+Array
+(
+    [0] => Array
+        (
+            [0] => PUSH amit
+        )
+
+    [1] => Array
+        (
+            [0] => amit
+        )
+
+)
+ 
+-----------------------
+16-02-2015 02:09:20.76763[2][2] - Elapsed time: 0.03505 milliseconds
+[parse_aiml.php][set_wildcards][287]
+Adding amit to the star stack. 
+-----------------------
+16-02-2015 02:09:20.76767[2][2] - Elapsed time: 0.04005 milliseconds
+[parse_aiml_as_XML.php][parse_aiml_as_XML][22]
+Parsing the AIML template as XML 
+-----------------------
+16-02-2015 02:09:20.7677[2][2] - Elapsed time: 0.02789 milliseconds
+[parse_aiml_as_XML.php][add_text_tags][53]
+Adding some TEXT tags into the template, just because I can... 
+-----------------------
+16-02-2015 02:09:20.76782[2][2] - Elapsed time: 0.11897 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.7679[2][2] - Elapsed time: 0.08512 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.76797[2][2] - Elapsed time: 0.06795 milliseconds
+[parse_aiml_as_XML.php][parse_think_tag][473]
+I'm considering parsing a THINK tag. 
+-----------------------
+16-02-2015 02:09:20.768[2][2] - Elapsed time: 0.03004 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the think tag into text. 
+-----------------------
+16-02-2015 02:09:20.76804[2][2] - Elapsed time: 0.03791 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.7681[2][2] - Elapsed time: 0.06199 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.76813[2][2] - Elapsed time: 0.03099 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.76817[2][2] - Elapsed time: 0.03409 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.76822[2][2] - Elapsed time: 0.05698 milliseconds
+[parse_aiml_as_XML.php][parse_get_tag][350]
+Parsing a GET tag. Oh, and getting a sandwich while I'm at it. 
+-----------------------
+16-02-2015 02:09:20.7685[2][2] - Elapsed time: 0.27299 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.76855[2][2] - Elapsed time: 0.05007 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.76902[2][2] - Elapsed time: 0.46897 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.76909[2][2] - Elapsed time: 0.07892 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.76913[2][2] - Elapsed time: 0.03099 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.76916[2][2] - Elapsed time: 0.03409 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.76922[2][2] - Elapsed time: 0.05603 milliseconds
+[parse_aiml_as_XML.php][parse_get_tag][350]
+Parsing a GET tag. Oh, and getting a sandwich while I'm at it. 
+-----------------------
+16-02-2015 02:09:20.7695[2][2] - Elapsed time: 0.28205 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.76954[2][2] - Elapsed time: 0.04482 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.76999[2][2] - Elapsed time: 0.45204 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77007[2][2] - Elapsed time: 0.07701 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.7701[2][2] - Elapsed time: 0.03099 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.77014[2][2] - Elapsed time: 0.03505 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.7702[2][2] - Elapsed time: 0.05794 milliseconds
+[parse_aiml_as_XML.php][parse_get_tag][350]
+Parsing a GET tag. Oh, and getting a sandwich while I'm at it. 
+-----------------------
+16-02-2015 02:09:20.77045[2][2] - Elapsed time: 0.25892 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.7705[2][2] - Elapsed time: 0.04816 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77094[2][2] - Elapsed time: 0.43201 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.771[2][2] - Elapsed time: 0.06986 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.77104[2][2] - Elapsed time: 0.03314 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.77108[2][2] - Elapsed time: 0.03791 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77114[2][2] - Elapsed time: 0.06294 milliseconds
+[parse_aiml_as_XML.php][parse_get_tag][350]
+Parsing a GET tag. Oh, and getting a sandwich while I'm at it. 
+-----------------------
+16-02-2015 02:09:20.77138[2][2] - Elapsed time: 0.24009 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77142[2][2] - Elapsed time: 0.04101 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77192[2][2] - Elapsed time: 0.50306 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77202[2][2] - Elapsed time: 0.09799 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.77206[2][2] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.77212[2][2] - Elapsed time: 0.05889 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77222[2][2] - Elapsed time: 0.10395 milliseconds
+[parse_aiml_as_XML.php][parse_get_tag][350]
+Parsing a GET tag. Oh, and getting a sandwich while I'm at it. 
+-----------------------
+16-02-2015 02:09:20.77273[2][2] - Elapsed time: 0.50902 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77287[2][2] - Elapsed time: 0.13709 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77351[2][2] - Elapsed time: 0.64397 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.7737[2][2] - Elapsed time: 0.18811 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.77375[2][2] - Elapsed time: 0.04792 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.7738[2][2] - Elapsed time: 0.05388 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.7739[2][2] - Elapsed time: 0.09608 milliseconds
+[parse_aiml_as_XML.php][parse_get_tag][350]
+Parsing a GET tag. Oh, and getting a sandwich while I'm at it. 
+-----------------------
+16-02-2015 02:09:20.7743[2][2] - Elapsed time: 0.40007 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77436[2][2] - Elapsed time: 0.0639 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77476[2][2] - Elapsed time: 0.40197 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77484[2][2] - Elapsed time: 0.07915 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.77488[2][2] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.77492[2][2] - Elapsed time: 0.03982 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77498[2][2] - Elapsed time: 0.06604 milliseconds
+[parse_aiml_as_XML.php][parse_get_tag][350]
+Parsing a GET tag. Oh, and getting a sandwich while I'm at it. 
+-----------------------
+16-02-2015 02:09:20.77519[2][2] - Elapsed time: 0.20409 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77523[2][2] - Elapsed time: 0.04792 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77559[2][2] - Elapsed time: 0.35405 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77567[2][2] - Elapsed time: 0.07606 milliseconds
+[parse_aiml_as_XML.php][parse_set_tag][391]
+Parsing the SET tag. 
+-----------------------
+16-02-2015 02:09:20.7757[2][2] - Elapsed time: 0.036 milliseconds
+[parse_aiml_as_XML.php][tag_to_string][1069]
+converting the set tag into text. 
+-----------------------
+16-02-2015 02:09:20.77574[2][2] - Elapsed time: 0.04101 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77581[2][2] - Elapsed time: 0.06485 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][205]
+Parsing a STAR tag. 
+-----------------------
+16-02-2015 02:09:20.77586[2][2] - Elapsed time: 0.05603 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77592[2][2] - Elapsed time: 0.05603 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77596[2][2] - Elapsed time: 0.0391 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77631[2][2] - Elapsed time: 0.35405 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77636[2][2] - Elapsed time: 0.04983 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77642[2][2] - Elapsed time: 0.05317 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77648[2][2] - Elapsed time: 0.0639 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77655[2][2] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.7766[2][2] - Elapsed time: 0.05198 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77665[2][2] - Elapsed time: 0.04292 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77669[2][2] - Elapsed time: 0.0422 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77673[2][2] - Elapsed time: 0.04196 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.7768[2][2] - Elapsed time: 0.0689 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77686[2][2] - Elapsed time: 0.05698 milliseconds
+[parse_aiml_as_XML.php][parseTemplateRecursive][131]
+Recursively parsing the AIML template. 
+-----------------------
+16-02-2015 02:09:20.77692[2][2] - Elapsed time: 0.06413 milliseconds
+[parse_aiml_as_XML.php][parse_star_tag][205]
+Parsing a STAR tag. 
+-----------------------
+16-02-2015 02:09:20.77697[2][2] - Elapsed time: 0.05484 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77703[2][2] - Elapsed time: 0.05317 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77709[2][2] - Elapsed time: 0.05889 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77716[2][2] - Elapsed time: 0.07296 milliseconds
+[parse_aiml.php][run_srai][518]
+SRAI Found. Returning 'amit' 
+-----------------------
+16-02-2015 02:09:20.77721[2][2] - Elapsed time: 0.05317 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77727[2][2] - Elapsed time: 0.05484 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77731[2][2] - Elapsed time: 0.04005 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77735[2][2] - Elapsed time: 0.04292 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77742[2][2] - Elapsed time: 0.072 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77749[2][2] - Elapsed time: 0.06413 milliseconds
+[parse_aiml_as_XML.php][implode_recursive][95]
+Imploding an array into a string. (recursively, if necessary) 
+-----------------------
+16-02-2015 02:09:20.77756[2][2] - Elapsed time: 0.06986 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Who is your favorite Science Fiction author?' to the front of the [that_raw] array 
+-----------------------
+16-02-2015 02:09:20.77767[2][2] - Elapsed time: 0.1092 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Who is your favorite Science Fiction author?' to the front of the [that] array 
+-----------------------
+16-02-2015 02:09:20.77781[2][2] - Elapsed time: 0.144 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing 'Who is your favorite Science Fiction author?' to the front of the [parsed_template] array 
+-----------------------
+16-02-2015 02:09:20.77788[2][2] - Elapsed time: 0.072 milliseconds
+[intialise_conversation.php][push_on_front_convoArr][204]
+Pushing '<srai>RANDOM PICKUP LINE</srai> 
+<think>
+<set name="it"><set name="topic"><person/></set></set> 
+<srai>PUSH <get name="topic"/></srai> 
+</think>' to the front of the [template] array 
+-----------------------
+16-02-2015 02:09:20.77797[2][2] - Elapsed time: 0.08893 milliseconds
+[intialise_conversation.php][log_conversation][367]
+Saving the conversation to the DB. 
+-----------------------
+16-02-2015 02:09:20.77851[2][2] - Elapsed time: 0.53787 milliseconds
+[display_conversation.php][get_conversation_to_display][62]
+Found '1' lines of conversation 
+-----------------------
+16-02-2015 02:09:20.78135[2][2] - Elapsed time: 2.84314 milliseconds
+[conversation_start.php][Called outside of function][182]
+Closing Database 
+-----------------------
+16-02-2015 02:09:20.78141[2][2] - Elapsed time: 0.06104 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+16-02-2015 02:09:20.7816[0][2] - Elapsed time: 0.18287 milliseconds
+[conversation_start.php][Called outside of function][187]
+Conversation Ending. Elapsed time: 596.481 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+            [convo_id] => 9085u6vs65gs7h0hp5peitssv3
+            [bot_name] => popo
+            [bot_id] => 1
+            [format] => html
+            [unknown_user] => Seeker
+            [user_name] => Seeker
+            [user_id] => 5
+            [totallines] => 1
+            [conversation_lines] => 1
+            [remember_up_to] => 10
+            [debugemail] => amitsaroj2012@gmail.com
+            [debug_level] => 2
+            [debugmode] => 1
+            [save_state] => database
+            [default_aiml_pattern] => RANDOM PICKUP LINE
+            [bot_parent_id] => 1
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => amit
+            [lookingfor] => AMIT
+            [template_id] => 141027
+            [pattern] => *
+            [thatpattern] => 
+            [template] => <srai>RANDOM PICKUP LINE</srai> 
+<think>
+<set name="it"><set name="topic"><person/></set></set> 
+<srai>PUSH <get name="topic"/></srai> 
+</think>
+            [html_template] => 
+            [topic] => 
+            [score] => 1
+            [aiml_id] => 141027
+            [parsed_template] => Who is your favorite Science Fiction author?
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => Array
+                (
+                    [1] => WHO IS YOUR FAVORITE SCIENCE FICTION AUTHOR
+                )
+
+        )
+
+    [star] => Array
+        (
+            [1] => amit
+        )
+
+    [input] => Array
+        (
+            [1] => amit
+        )
+
+    [stack] => Array
+        (
+            [top] => 
+            [last] => 
+        )
+
+    [client_properties] => Array
+        (
+            [ip_address] => ::1
+            [name] => Seeker
+        )
+
+    [user_say] => Array
+        (
+            [1] => amit
+        )
+
+    [that_raw] => Array
+        (
+            [1] => Array
+                (
+                    [1] => 
+                    [2] => Who is your favorite Science Fiction author?
+                )
+
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => Who is your favorite Science Fiction author?
+        )
+
+)
+
+-----------------------
+Total execution time: 596.481 Milliseconds. Goodbye.

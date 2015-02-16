@@ -1,0 +1,68 @@
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (TRUE)
+Search terms = Array
+(
+    [0] => 1
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (TRUE)
+Search terms = Array
+(
+    [0] => 1
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (TRUE)
+Search terms = Array
+(
+    [0] => 1
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (topic like ?)
+Search terms = Array
+(
+    [0] => 1
+    [1] => %pujan%
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (topic like ? AND pattern like ?)
+Search terms = Array
+(
+    [0] => 1
+    [1] => %pujan%
+    [2] => %pujan%
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (topic like ? AND pattern like ?)
+Search terms = Array
+(
+    [0] => 1
+    [1] => %pujan%
+    [2] => %amit%
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (pattern like ?)
+Search terms = Array
+(
+    [0] => 1
+    [1] => %amit%
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (pattern like ?)
+Search terms = Array
+(
+    [0] => 1
+    [1] => %ami%
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (TRUE)
+Search terms = Array
+(
+    [0] => 1
+)
+
+SQL = SELECT count(id) FROM `aiml` WHERE `bot_id` = ? AND (pattern like ?)
+Search terms = Array
+(
+    [0] => 1
+    [1] => %pujan%
+)
+

@@ -1,0 +1,102 @@
+16-02-2015 02:26:30.6783[0][2] - Elapsed time: 6.20699 milliseconds
+[conversation_start.php][Called outside of function][25]
+Conversation Starting. Program O version 2.4.7 
+-----------------------
+16-02-2015 02:26:30.6784[0][2] - Elapsed time: 0.10085 milliseconds
+[conversation_start.php][Called outside of function][26]
+OS: Windows NT version build 9200 ((null)) 
+-----------------------
+16-02-2015 02:26:30.67845[0][2] - Elapsed time: 0.05007 milliseconds
+[conversation_start.php][Called outside of function][27]
+PHP  version 5.3.1 
+-----------------------
+16-02-2015 02:26:30.71423[2][2] - Elapsed time: 35.78091 milliseconds
+[handle_user.php][load_new_client_defaults][24]
+Loading client defaults 
+-----------------------
+16-02-2015 02:26:30.71855[2][2] - Elapsed time: 4.32014 milliseconds
+[conversation_start.php][Called outside of function][179]
+Conversation intialised waiting user 
+-----------------------
+16-02-2015 02:26:30.71864[2][2] - Elapsed time: 0.08392 milliseconds
+[conversation_start.php][Called outside of function][182]
+Closing Database 
+-----------------------
+16-02-2015 02:26:30.71868[2][2] - Elapsed time: 0.04792 milliseconds
+[PDO_functions.php][db_close][49]
+This DB is now closed. You don't have to go home, but you can't stay here. 
+-----------------------
+16-02-2015 02:26:30.71924[0][2] - Elapsed time: 0.55504 milliseconds
+[conversation_start.php][Called outside of function][187]
+Conversation Ending. Elapsed time: 47.090 milliseconds. 
+-----------------------
+Debug Level: 2
+-----------------------
+Debug Mode: 1
+-----------------------
+CONVERSATION ARRAY
+-----------------------
+Array
+(
+    [conversation] => Array
+        (
+        )
+
+    [aiml] => Array
+        (
+            [user_raw] => 
+            [lookingfor] => 
+            [pattern] => 
+            [thatpattern] => 
+            [topic] => 
+            [score] => 
+            [aiml_id] => 
+            [parsed_template] => 
+        )
+
+    [topic] => Array
+        (
+            [1] => 
+        )
+
+    [that] => Array
+        (
+            [1] => 
+        )
+
+    [input] => Array
+        (
+            [1] => 
+        )
+
+    [stack] => Array
+        (
+            [top] => om
+            [last] => om
+        )
+
+    [client_properties] => Array
+        (
+            [name] => Seeker
+            [id] => 
+        )
+
+    [user_say] => Array
+        (
+            [1] => 
+        )
+
+    [that_raw] => Array
+        (
+            [1] => 
+        )
+
+    [parsed_template] => Array
+        (
+            [1] => 
+        )
+
+)
+
+-----------------------
+Total execution time: 47.090 Milliseconds. Goodbye.

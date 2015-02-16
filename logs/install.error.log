@@ -1,0 +1,8 @@
+[16-Feb-2015 01:35:38] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000]: General error: 2014 Cannot execute queries while other unbuffered queries are active.  Consider using PDOStatement::fetchAll().  Alternatively, if your code is only ever going to run against mysql, you may enable query buffering by setting the PDO::MYSQL_ATTR_USE_BUFFERED_QUERY attribute.' in C:\xampp\htdocs\test\install\install_programo.php:205
+Stack trace:
+#0 C:\xampp\htdocs\test\install\install_programo.php(205): PDOStatement->execute()
+#1 C:\xampp\htdocs\test\install\install_programo.php(51): Save('2')
+#2 {main}
+  thrown in C:\xampp\htdocs\test\install\install_programo.php on line 205
+[16-Feb-2015 01:38:39] PHP Warning:  mkdir(): Invalid argument in C:\xampp\htdocs\test\install\install_programo.php on line 139
+[16-Feb-2015 01:38:39] PHP Warning:  file_put_contents(C:\xampp\htdocs\test\admin\C:\xampp\htdocs\test\admin\ses_a589fcc32b2e583faac8e2e9b4c2c4ef\index.html): failed to open stream: Invalid argument in C:\xampp\htdocs\test\install\install_programo.php on line 142
